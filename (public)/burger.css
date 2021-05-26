@@ -1,0 +1,468 @@
+*{
+    margin: 0 auto;
+}
+body{
+    margin: 0 auto;
+    scroll-behavior: smooth;
+    padding: 0;
+    background-color: black;
+    
+}
+.navbar{
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand{
+    width: 100px ;
+    height: 100px;
+    padding-top: 10px;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+}
+.navbar-nav .nav-item .nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: #16e0bd 2px 3px 7px;
+    margin-left: 30px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: gold;
+    text-shadow: white 2px 3px 10px;
+    transition: ease-in-out 0.7s all;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: gold;    
+}
+.main-banner-view{
+    margin-bottom: 30px;
+}
+.banner1 , .banner2 , .banner3 , .banner4{
+    width: 100%;
+    height: 625px;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.banner1 img{
+    width: 100%;
+    height: 625px;
+    position: absolute;
+    animation: zoom-out 3s linear infinite;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    
+}
+
+.banner2 img{
+    width: 100%;
+    height: 625px;
+    position: absolute;
+    animation: zoom-out 3s linear infinite;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    
+}
+
+.banner3 img{
+    width: 100%;
+    height: 625px;
+    position: absolute;
+    animation: zoom-out 3s linear infinite;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    
+}
+
+.banner4 img{
+    width: 100%;
+    height: 625px;
+    position: absolute;
+    animation: zoom-out 3s linear infinite;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    
+}
+
+.text-box{
+	width: 50%;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+    color: #fff;
+    animation: textup 12s linear infinite;
+    transform: translateY(100px);
+}
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.text-box h1{
+    margin-bottom: 20px;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 10px;
+}
+.text-box p{
+	font-size: 19px;
+	line-height: 12px;
+    margin-top: 48px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 4px;
+}
+.text-box span{
+	background: red;
+	height: 4px;
+	width: 100px;
+	position: absolute;
+	left: 0;
+}
+.text-box a{
+    background: red;
+    border: black 4px solid;
+    border-radius: 29px;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bolder;
+    line-height: 18px;
+    left: 0%;
+    position: relative;
+    box-shadow: rgba(204, 60, 35, 0.891) 0px 2px 12px 0px;
+}
+.text-box a:hover{
+    color: red;
+    background: black;
+}
+
+                                                    /* LANDING PAGE (MENU) */
+.section-menu{
+    width: 94%;
+    padding-top: 700px;
+    padding-left: 30px;
+
+}
+.row{
+    margin: 30px;
+    transition: linear 2.3s all;
+}
+.col-md-4 a{
+    text-decoration: none;
+    
+}
+.menu-pic-1{
+    width: 350px;
+    height: 330px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.menu-pic-1 img{
+    width: 350px;
+    height: 300px;
+    text-decoration:none;
+}
+.menu-pic-2{
+    width: 350px;
+    height: 330px;
+    margin-left: 30px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.menu-pic-2 img{
+    width: 350px;
+    height: 300px;
+}
+.menu-pic-3{
+    width: 350px;
+    height: 330px;
+    margin-left: 30px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.menu-pic-3 img{
+    width: 350px;
+    height: 300px;
+}
+.menu-pic-1 h3{
+    font-size: 23px;
+    text-align: center;
+    color: gold;
+    margin-top: 20px;
+    font-family: 'Lemon', cursive;
+}
+.menu-pic-2 h3{
+    font-size: 23px;
+    text-align: center;
+    color: gold;
+    margin-top: 20px;
+    font-family: 'Lemon', cursive;
+}
+.menu-pic-3 h3{
+    font-size: 23px;
+    text-align: center;
+    color: gold;
+    margin-top: 20px;
+    font-family: 'Lemon', cursive;
+}
+
+
+                                /*  LANDING PAGE (ABOUT) */
+.main-about-landing-page{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.section-about-landing-page h1{
+    color: gold;
+    opacity: 75%;
+    padding-left: 50px;
+    font-family: 'Faster One', cursive;
+    letter-spacing: 10px;
+    padding-top: 20px;
+}
+.section-about-landing-page p{
+    width: 90%;
+    text-align: left;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Cabin Sketch', cursive;
+    padding: 10px;
+    word-spacing: 5px;
+}
+.section-about-landing-page a{
+    color: gold;
+    border: black 4px solid;
+    border-radius:10px;
+    font-family: 'Passion One', cursive;
+    letter-spacing: 2px;
+    font-size: 24px;
+    line-height: 13px;
+    left: 0%;
+    position: relative;
+    box-shadow: gold 0px 1px 4px 0px;
+    margin-left: 85%;
+    padding: 10px;
+    text-decoration: none;
+    top: 0;
+    margin-top: 10px;
+}
+.section-about-landing-page a:hover{
+    color: black;
+    background: gold;
+    transition: ease-in-out 0.5s all;
+}
+                                
+
+                            /* LANDING PAGE (ORDER NOW) */
+.container-landing{
+    width: 100%;
+    height: 300px;
+    background-color: gold;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}                                  
+.section-order-now{
+    text-align: center;
+    font-family: 'Ewert', cursive;  
+}
+.order-now{
+    font-size: 44px;
+}    
+.ph-number{
+    font-size: 44px;
+} 
+.timing{
+    font-size: 44px;
+}           
+
+                                /* LANDING PAGE (FOOTER) */
+.footer{
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+}
+.section-footer{
+    text-align: center;
+}
+.section-footer-links a{
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Averia Gruesa Libre', cursive;
+    color: white;
+    font-weight: 600;
+    margin-left: 40px;
+}
+.section-footer-links a:hover{
+    color: gold;
+    transition: ease-in-out 0.6s all;   
+}
+.section-footer-owner{
+    margin-top: 22px;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 17px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bolder;
+}
+.fab{
+    color: gold;
+    margin-top: 20px;
+    padding: 5px;
+  }
+  .fa-facebook:hover{
+    color: #0d2acfc4;
+    transition: linear 2.5ms all;
+  }
+  .fa-instagram:hover{
+    color: rgba(224, 56, 56, 0.712);
+    transition: linear 2.5ms all;
+  }
+  .fa-whatsapp:hover{
+    color: rgba(12, 219, 57, 0.822);
+    transition: linear 2.5ms all;
+  }
+  .copy-right-div{
+    display: inline-flex;
+    padding-top: 40px;
+    padding-left: 16%;
+    font-family: 'Grenze Gotisch', cursive;
+    letter-spacing: 4px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  .para-heading{
+    padding-left: 5px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    
+  }
+
+
+
+
+
+
+
+/* ANIMATIONS */
+.banner1{
+	animation: slide1 linear 12s infinite;
+}
+.banner2{
+	animation: slide2 linear 12s infinite;
+}
+.banner3{
+	animation: slide3 linear 12s infinite;
+}
+.banner4{
+	animation: slide4 linear 12s infinite;
+}
+
+.text-box-1{
+    animation-delay: 0s;
+}
+.text-box-2{
+    animation-delay: 3s;
+}
+.text-box-3{
+    animation-delay: 6s;
+}
+.text-box-4{
+    animation-delay: 9s;
+}
+
+
+/* KEYFRAMES */
+@keyframes slide1{
+	0%{
+		visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }	
+	50%{
+		visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+	100%{
+        visibility: hidden;
+    }
+    125%{
+        visibility: visible;
+    }
+}
+
+@keyframes slide2{
+	0%{
+		visibility: hidden;
+	}	
+    25%{
+        visibility: hidden;
+    }
+	50%{
+		visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+	100%{
+		visibility: hidden;
+	}
+}
+@keyframes slide3{
+	0%{
+		visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }	
+	50%{
+		visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+	100%{
+		visibility: hidden;
+    }
+    125%{
+        visibility: hidden;
+    }
+}
+@keyframes slide4{
+    0%{
+		visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }	
+	50%{
+		visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+	100%{
+		visibility: hidden;
+    }
+    125%{
+        visibility: visible;
+    }
+}
